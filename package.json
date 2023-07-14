@@ -1,0 +1,23 @@
+{
+  "name": "cocos-native-build",
+  "version": "1.0.0",
+  "description": "cocos native build and zip shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "dotenv-cli": "^7.2.0",
+    "archiver": "^5.3.1",
+    "dotenv-run-script": "^0.2.0"
+  },
+  "keywords": [
+    "cocos",
+    "cocos-build",
+    "cocos-native",
+    "cocos-native-build"
+  ],
+  "author": "kvnsaverwh",
+  "license": "MIT"
+}
