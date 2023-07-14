@@ -1,16 +1,24 @@
 {
   "name": "cocos-native-build",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cocos native build and zip shell",
   "main": "index.js",
+  "bin": {
+    "cnb": "bin/cocos-build-native"
+  },
+  "files": [
+    "bin",
+    "index.js"
+  ],
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc"
   },
   "devDependencies": {
-    "dotenv": "^16.0.3",
-    "dotenv-cli": "^7.2.0",
     "archiver": "^5.3.1",
-    "dotenv-run-script": "^0.2.0"
+    "dotenv": "^16.3.1",
+    "dotenv-cli": "^7.2.1",
+    "dotenv-run-script": "^0.3.0"
   },
   "keywords": [
     "cocos",
@@ -19,5 +27,19 @@
     "cocos-native-build"
   ],
   "author": "kvnsaverwh",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "dotenv": "^16.0.3",
+    "dotenv-cli": "^7.2.0",
+    "dotenv-run-script": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SABERBOY/cocos-native-build.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SABERBOY/cocos-native-build/issues"
+  },
+  "homepage": "https://github.com/SABERBOY/cocos-native-build#readme"
 }
